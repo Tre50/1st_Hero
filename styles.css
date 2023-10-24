@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+
+}
+
+body {
+    margin: 20px;
+    font-size: 4rem;
+    background-image: url("starry.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+    
+}
+header {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    flex-direction: row;
+    color:yellowgreen;
+    margin-right: auto;
+    
+    
+}
+h1{
+    font-family: Tahoma;
+    font-size: 6rem;
+    
+    
+    
+}
+
+#container{
+    border: 40px greenyellow;
+    display:flexbox;
+    flex-direction:row;
+    border-style:groove;
+}
+h2{
+    color:ghostwhite;
+    margin-right: 50%;
+    
+}
+
+p
+{
+    font-size: 5rem;
+    font-family: monospace;
+    flex-wrap:wrap;
+    margin-right: 50%;
+    color: yellow;
+    display: table-row-group;
+    
+}
